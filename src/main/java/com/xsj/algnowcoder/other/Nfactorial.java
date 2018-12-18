@@ -8,7 +8,7 @@ package com.xsj.algnowcoder.other;
  */
 public class Nfactorial{
     public static void main(String[] args){
-        int N = 5;
+        int N = 10;
         for(int n = 0; n <= N; n++){
             int fact = factorial(n);
             System.out.println(n + " 的阶乘值是： " + fact);

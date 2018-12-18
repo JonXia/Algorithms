@@ -18,11 +18,14 @@ public class CheckIndex {
         if(array == null){
             return -1;
         }
-        int middle = (start + end) / 2;//中间的位置
+        // 中间的位置
+        int middle = (start + end) / 2;
         if(start <= end){
-            if(array[middle] == find){//中间值等于要查找的值，直接返回
+            // 中间值等于要查找的值，直接返回
+            if(array[middle] == find){
                 return middle + 1;
-            }else if(array[middle] < find){//中间值小于要查找的值，就在中间值后面继续查找
+                // 中间值小于要查找的值，就在中间值后面继续查找
+            }else if(array[middle] < find){
                 return search(array, middle + 1, end, find);
             }else{//中间值大于要查找的值，就在中间值前面继续查找
                 return search(array, start, middle -1, find);
