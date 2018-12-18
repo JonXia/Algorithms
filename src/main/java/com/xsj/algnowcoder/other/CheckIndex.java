@@ -31,7 +31,8 @@ public class CheckIndex {
                 return search(array, start, middle -1, find);
             }
         }
-        return -1;//未查找到，返回-1
+        // 未查找到，返回-1
+        return -1;
     }
 
     public static void main(String[] args) {
