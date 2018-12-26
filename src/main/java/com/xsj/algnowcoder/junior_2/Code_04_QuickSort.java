@@ -1,4 +1,4 @@
-package com.xsj.algnowcoder.junior_1;
+package com.xsj.algnowcoder.junior_2;
 
 import java.util.Arrays;
 
