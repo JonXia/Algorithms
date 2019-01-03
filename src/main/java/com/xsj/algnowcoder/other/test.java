@@ -11,7 +11,7 @@ public class test {
         m.nextPermutation(intArray);
 
         for (int i = 0; i < intArray.length; i++) {// 遍历打印int[],察看运行结果.
-            System.err.print(intArray[i] + " ");
+            System.out.print(intArray[i] + " ");
         }
     }
 
