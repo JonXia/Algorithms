@@ -1,4 +1,4 @@
-## 牛客网算法班笔记
-TODO:(12.20)
-- junior2,3一周内搞定
-- 剩下的待定
+# memo for leetcode
+- 《剑指offer》
+- leetcode
+- 王道考研(更新待定)
