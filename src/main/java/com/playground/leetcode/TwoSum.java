@@ -7,7 +7,6 @@ import java.util.Map;
  * 一遍哈希表
  * @author JonXia     jonxia@microwu.com
  * @date 2019/4/29 11:29
- * CopyRight    北京小悟科技有限公司    http://www.microwu.com
  * Update History:
  * Author            Time            Content
  */
